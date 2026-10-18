@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Arabic text looks better with a font that has Arabic letters; the rest falls back to the system font. */
+@theme {
+  --font-sans: "Segoe UI", Tahoma, "Noto Sans Arabic", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-stone-50 text-stone-800 antialiased;
+}
